@@ -38,7 +38,7 @@ class main extends Component {
       <div id="parent">
         <div className="main">
           <div className="show">{this.state.num}</div>
-          <input type="number" id="input" className="input"></input>
+          <input type="number" id="input" className="input" placeholder="Enter Number"></input>
           <button onClick={this.getnum} className="btn">submit</button>
         </div>
       </div>
