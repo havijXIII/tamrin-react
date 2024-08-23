@@ -1,3 +1,31 @@
-.par{
-    color: aqua;
+.show{
+    color: rgb(85, 91, 255);
+    text-align: center;
+}
+#parent{
+    display: flex;
+    justify-content: center;
+}
+.main{
+    padding: 20px;
+    border-radius: 200px;
+    box-shadow: rgb(85, 91, 255) 0px 0px 8px 8px;
+    align-items: center;
+    display:grid;
+    align-content: space-evenly;
+    justify-content: space-around;
+    margin-top: 200px;
+    height: 250px;
+    width: 250px;
+}
+.input{
+    border: 3px rgb(85, 91, 255) solid;
+    border-radius: 8px;
+    height: 22px;
+}
+.btn{
+    background-color: rgb(85, 91, 255);
+    border: 3px white solid;
+    border-radius: 8px;
+    height: 30px;
 }
